@@ -24,13 +24,36 @@ private:
     int year;
 
 public:
-    // Constructors
+    // Constructor
+    /*
+        Purpose: Initializes a Date object.
+        Input: Month, day, and year.
+        Preconditions: None; invalid input is handled.
+        Postconditions: Stores a valid date or resets to 1/1/1900.
+        Output: An initialized Date object.
+    */
     Date(int m = 1, int d = 1, int y = 1900);
 
+
     // Mutator
+    /*
+        Purpose: Modifies an existing Date object.
+        Input: Month, day, and year.
+        Preconditions: None; invalid input is handled.
+        Postconditions: Stores the new date if valid;
+                        otherwise resets to 1/1/1900.
+        Output: None.
+    */
     void setDate(int m, int d, int y);
 
     // Accessors
+    /*
+        Purpose: Retrieve the stored month, day, or year.
+        Input: None.
+        Preconditions: The Date object is valid.
+        Postconditions: The stored date remains unchanged.
+        Output: An integer representing the requested value.
+    */
     int getMonth() const;
     int getDay() const;
     int getYear() const;
