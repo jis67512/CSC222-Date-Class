@@ -50,7 +50,7 @@ int main()
 
     cout << "Default constructor: " << defaultDate.toNumericString() << endl;
 
-    cout << "Invalid month: " << invalidMonth.toNumericString() << endl << invalidMonth.toNumericString() << endl;
+    cout << "Invalid month: " << invalidMonth.toNumericString() << endl;
 
     cout << "Invalid year: "<< invalidYear.toNumericString() << endl;
     

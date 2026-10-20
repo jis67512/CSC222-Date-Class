@@ -59,6 +59,13 @@ public:
     int getYear() const;
 
     //Leap-year
+    /*
+        Purpose: Determine whether a year is a leap year.
+        Input: Stored year or supplied year.
+        Preconditions: Supplied year must be at least 1.
+        Postconditions: Stored date remains unchanged.
+        Output: true for a leap year; otherwise false.
+    */
     bool isLeapYear() const;
     bool isLeapYear(int year) const;
 
